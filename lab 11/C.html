@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>c</title>
+</head>
+<style>
+    body{
+        background-color: #314058;
+    }
+    
+    .content{
+        background-color: whitesmoke;
+        height: 50px;
+        width: 70px;
+        position: relative;
+        top: 100px;
+
+    }
+    .box1{
+        height: 100px;
+        width: 70px;
+        background-image:linear-gradient( #fce38a ,#f38181);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box2{
+        height: 100px;
+        width: 70px;
+        background-image:linear-gradient(  #f38181 ,#ff7676);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box3{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient( #f54ea2,#6078ea);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box4{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient(#622774,#c53364);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box5{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient(#7117ea,#ea6060);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box6{
+        height: 100px;
+        width: 70px;
+        background-image:  linear-gradient(#42e695,#3bb2b8);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box7{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient( #f02fc2 , #6094ea);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box8{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient(#65799b,#5e2563);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box9{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient(#184e68,#57ca85);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box10{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient(#5b247a,#1bcedf);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box11{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient( #74276c,#c53364,#fd8263);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box12{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient(#274b74,#8233c5,#e963fd);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box13{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient(#879af2,#d3208b,#fda000);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box14{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient(#8929ad,#436aac,#43b7b8);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box15{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient(#276174,#33c58e,#63fd88);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box16{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient( #574bcd,#2999ad,#41e975);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box17{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient(#363553,#903775,#e8458b);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box18{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient(#5c2774,#335cc5,#637ffd);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box19{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient(#ea5a6f,#de791e,#fccf3a);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .box20{
+        height: 100px;
+        width: 70px;
+        background-image: linear-gradient(#f17b41,#e05ba2,#cd4bc9);
+        border-radius: 5px;
+        float: left;
+        margin: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+
+</style>
+<body>
+    
+    <div class="box1"> 
+        <div class="content"> fce38a<br>f38181 </div>
+    </div>
+    <div class="box2">
+        <div class="content">f54ea2<br>ff7676</div>
+    </div>
+    <div class="box3">
+        <div class="content">17ead9<br>6078ea</div>
+    </div>
+    <div class="box4">
+        <div class="content">622774<br>c53364</div>
+    </div>
+    <div class="box5">
+        <div class="content">7117ea<br>ea6060</div>
+    </div>
+
+    <div class="box6"> 
+        <div class="content"> 42e695 <br>3bb2b8</div>
+       </div>
+       <div class="box7">
+        <div class="content">f02fc2<br>6094ea</div>
+       </div>
+       <div class="box8">
+        <div class="content">65799b<br>5e2563</div>
+       </div>
+       <div class="box9">
+        <div class="content">184e68<br>57ca85</div>
+       </div>
+       <div class="box10">
+        <div class="content">5b247a<br>1bcedf</div>
+       </div>
+
+       <div class="box11"> 
+        <div class="content">74276c<br>c53364<br>fd8263</div>
+       </div>
+       <div class="box12">
+        <div class="content">274b74<br>8233c5<br>e963fd</div>
+       </div>
+       <div class="box13">
+        <div class="content">879af2<br>d3208b<br>fda000</div>
+       </div>
+       <div class="box14">
+        <div class="content">8929ad<br>436aac<br>43b7b8</div>
+       </div>
+       <div class="box15">
+        <div class="content">276174<br>33c58e<br>63fd88</div>
+       </div>
+
+       <div class="box16"> 
+        <div class="content">574bcd<br>2999ad<br>41e975</div>
+       </div>
+       <div class="box17">
+        <div class="content">363553<br>903775<br>e8458b</div>
+       </div>
+       <div class="box18">
+        <div class="content">5c2774<br>335cc5<br>637ffd</div>
+       </div>
+       <div class="box19">
+        <div class="content">ea5a6f<br>de791e<br>fccf3a</div>
+       </div>
+       <div class="box20">
+        <div class="content">f17b41<br>e05ba2<br>cd4bc9</div>
+       </div>
+
+    
+</body>
+</html>
