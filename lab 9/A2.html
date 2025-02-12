@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2</title>
+</head>
+<style>
+.move{
+    height: 100px;
+    width: 100px;
+    animation-name: move;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: 10;
+}
+@keyframes move {
+        0%{
+            background-color: brown;
+            left: 0px;
+            top: 0px;
+        }
+        25%{
+            background-color: rgb(175, 212, 41);
+            left: 150px;
+            top: 0px;
+        }
+        50%{
+            background-color: brown;
+            left: 150px;
+            top: 150px;
+        }
+        75%{
+            background-color: rgb(175, 249, 46);
+            left:0px;
+            top:150px;
+        }
+        100%{
+            background-color: brown;
+            left: 0px;
+            top:0px;
+        }
+    }
+</style>
+<body>
+    <div class="move"></div>
+
+</body>
+</html>
